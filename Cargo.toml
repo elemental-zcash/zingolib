@@ -73,7 +73,7 @@ rand = "0.8"
 reqwest = "0.12"
 ring = "0.17"
 rust-embed = "6"
-rustls = { version = "0.23", features = ["ring"] }
+rustls = { version = "0.23.13", default-features = false, features = ["ring"] }
 rustls-pemfile = "2"
 rustyline = "11"
 secp256k1 = "0.27"
